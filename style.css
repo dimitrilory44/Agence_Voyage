@@ -1,0 +1,268 @@
+/* GENERAL */
+
+*   {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 20px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.orange {
+    color: orange;
+}
+
+.clear {
+    clear: both;
+}
+
+/* HEADER */
+
+header {
+    height: 120px;
+}
+
+header h1 {
+    float:left;
+    margin-top: 32px;
+}
+
+header nav {
+    float:right;
+    margin-top: 50px;
+}
+
+header nav ul li {
+    float:left;
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right:20px;
+}
+
+/* MAIN IMAGE */
+
+#main_image{
+    height: 580px;
+    background: url('images/main.jpg') center;
+}
+
+#main_image h2 {
+    padding: 150px 0 40px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-1 {
+    width: 120px;
+    height: 50px;
+    display: block;
+    background: orange;
+    color: white;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.button-1:hover{
+    background: #33D0FF;
+}
+
+/* STEP */
+
+#steps div{
+    float: left;
+    margin: 60px 0;
+}
+
+#steps .wrapper {
+    margin: 60px 25%;
+}
+
+div #step-1 {
+    width: 250px;
+    padding-top: 140px;
+    text-align: center;
+}
+
+#step-1 {
+    background: url("images/steps-icon-1.png") top no-repeat;
+}
+
+div #step-2 {
+    width: 250px;
+    padding-top: 140px;
+    text-align: center;
+}
+
+#step-2 {
+    background: url("images/steps-icon-2.png") top no-repeat;
+}
+
+div #step-3 {
+    width: 250px;
+    padding-top: 140px;
+    text-align: center;
+}
+
+#step-3 {
+    background: url("images/steps-icon-3.png") top no-repeat;
+}
+
+/* POSSIBILITIES */
+
+#possibilities {
+    background-color: #efefef;
+    padding: 60px 25%;
+}
+
+#possibilities article {
+    width: 360px;
+    height: 250px;
+    float: left;
+    border-radius: 10px;
+    padding: 60px auto;
+}
+
+#possibilities article:first-child {
+    margin-right: 20px;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.95);
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    box-sizing: border-box;
+}
+
+article h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+article p {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.button-2 {
+    background: orange;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 3px;
+    margin: auto 20px;
+}
+
+.button-2:hover{
+    background: #33D0FF;
+}
+
+/* CONTACT */
+
+#contacts {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contacts h3 {
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid blue;
+    padding-bottom: 20px;
+}
+
+form {
+    margin: 60px 0 20px 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+.button-3 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: blue;
+    padding: 7px;
+    border-style: none;
+}
+
+.button-3:hover {
+    background-color: rgb(62, 55, 55);
+}
+
+/* FOOTER */
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #444;
+}
+
+footer h1, .droit {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
